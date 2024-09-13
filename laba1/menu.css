@@ -1,0 +1,86 @@
+/* Селектор всего */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Селектор тега */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e9ecef;
+    padding: 20px;
+}
+
+/* Селектор класса */
+.header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Селектор идентификатора */
+#menu-title {
+    font-size: 32px;
+    color: #333;
+}
+
+/* Атрибутный селектор */
+a[href] {
+    text-decoration: none;
+    color: #28a745;
+}
+
+/* Комбинированный селектор */
+nav ul li a {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Дочерний селектор */
+nav > ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Селектор соседнего элемента */
+h2 + ul {
+    margin-top: 10px;
+}
+
+/* Селектор состояния элемента */
+a:hover {
+    color: #ff6347;
+}
+
+/* Псевдоэлемент */
+ul::before {
+    content: "• ";
+    color: #333;
+    font-size: 1.5em;
+}
+
+/* Дополнительные стили для списков */
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

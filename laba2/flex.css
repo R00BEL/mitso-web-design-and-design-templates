@@ -1,0 +1,77 @@
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.content {
+  background: #f8f9fc;
+
+  height: 300px;
+  width: 100%;
+  padding: 1.5rem;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.textBox {
+  flex: 1;
+}
+
+.imgBoxes {
+  flex: 1.5;
+
+  display: flex;
+  gap: 1.5rem;
+}
+
+.imgBox {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.5rem;
+}
+
+img {
+  height: 70px;
+  width: 70px;
+}
+
+.greenBg {
+  background: #009988;
+}
+
+.blueBg {
+  background: #00a9ff;
+}
+
+.mainText {
+  padding-bottom: 1rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  color: white;
+  border: none;
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  height: 40px;
+  width: 150px;
+}
