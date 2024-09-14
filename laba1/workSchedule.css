@@ -1,11 +1,9 @@
-/* Селектор всего */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Селектор тега */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -13,7 +11,6 @@ body {
   padding: 20px;
 }
 
-/* Селектор класса */
 .header {
   background-color: #6c757d;
   color: #fff;
@@ -21,25 +18,21 @@ body {
   padding: 20px 0;
 }
 
-/* Селектор идентификатора */
 #schedule-title {
   font-size: 32px;
   color: #333;
 }
 
-/* Атрибутный селектор */
 a[href] {
   text-decoration: none;
   color: #17a2b8;
 }
 
-/* Комбинированный селектор */
 nav ul li a {
   font-size: 18px;
   color: #333;
 }
 
-/* Дочерний селектор */
 nav > ul {
   list-style: none;
   padding: 0;
@@ -47,23 +40,19 @@ nav > ul {
   margin-bottom: 20px;
 }
 
-/* Селектор соседнего элемента */
 h2 + p {
   margin-top: 10px;
 }
 
-/* Селектор состояния элемента */
 a:hover {
   color: #ff6347;
 }
 
-/* Псевдоэлемент */
 section::first-letter {
   font-size: 1.5em;
   font-weight: bold;
 }
 
-/* Дополнительные стили для таблицы */
 table {
   width: 100%;
   margin-top: 20px;
@@ -82,7 +71,6 @@ th {
   color: white;
 }
 
-/* Стили для футера */
 footer {
   background-color: #6c757d;
   color: #fff;
