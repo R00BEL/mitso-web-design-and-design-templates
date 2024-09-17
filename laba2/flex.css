@@ -53,8 +53,28 @@ img {
   background: #009988;
 }
 
+button.greenBg:hover {
+  outline: none;
+  box-shadow: 0 0 5px #009988;
+}
+
+button.greenBg:active {
+  background-color: #007a6a;
+  transform: scale(0.98);
+}
+
 .blueBg {
   background: #00a9ff;
+}
+
+button.blueBg:hover {
+  outline: none;
+  box-shadow: 0 0 5px #00a9ff;
+}
+
+button.blueBg:active {
+  background-color: #007fcc;
+  transform: scale(0.98);
 }
 
 .mainText {
@@ -74,4 +94,5 @@ button {
   border-radius: 0.5rem;
   height: 40px;
   width: 150px;
+  text-transform: uppercase;
 }
