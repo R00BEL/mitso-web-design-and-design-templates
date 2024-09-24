@@ -1,0 +1,28 @@
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.2px;
+  font: 14px Montserrat, sans-serif;
+}
+
+.formControl {
+  color: var(--text-color, #252b42);
+  font-weight: 600;
+  line-height: 24px;
+  align-self: start;
+}
+
+.inputFormControl {
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  border: 1px solid var(--muted-color, #bdbdbd);
+  background-color: #f9f9f9;
+  margin-top: 10px;
+  width: 100%;
+  overflow: hidden;
+  color: var(--second-text-color, #737373);
+  font-weight: 400;
+  line-height: 28px;
+  padding: 11px 21px;
+}

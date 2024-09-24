@@ -86,6 +86,8 @@
   align-self: center;
 }
 .cardContent {
+  gap: 0.80rem;
+
   border-radius: 1px;
   background-color: rgba(255, 255, 255, 1);
   display: flex;
@@ -172,7 +174,9 @@
   overflow: hidden;
   padding: 11px 19px;
 }
+
 .buttonBtnPrimaryColor {
+  box-sizing: border-box;
   border-radius: 5px;
   background: var(--primary-color, #ff7b47);
   background-color: var(--primary-color, #ff7b47);
