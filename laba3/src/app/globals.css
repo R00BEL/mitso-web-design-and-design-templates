@@ -1,3 +1,12 @@
+:root {
+  --orange: #ff7b47;
+  --muted-color: #bdbdbd;
+  --dark-green: #0d5c63;
+
+  --text-color: #252b42;
+  --second-text-color: #737373;
+}
+
 body {
   display: flex;
   justify-content: center;

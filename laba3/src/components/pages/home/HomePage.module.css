@@ -22,13 +22,13 @@
   justify-content: start;
 }
 .h1 {
-  color: var(--text-color, #252b42);
+  color: var(--text-color);
   font-size: 58px;
   font-weight: 800;
   line-height: 80px;
 }
 .h4 {
-  color: var(--second-text-color, #737373);
+  color: var(--second-text-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -48,17 +48,16 @@
 }
 .buttonBtnPrimaryColorBtnRound {
   border-radius: 37px;
-  background: var(--primary-color, #ff7b47);
-  background-color: var(--primary-color, #ff7b47);
+  background: var(--orange);
   overflow: hidden;
-  color: var(--light-text-color, #fff);
+  color: white;
   padding: 10px 36px;
 }
 .buttonBtnPrimaryColorBtnOutlineBtnRound {
   border-radius: 37px;
-  border: 1px solid var(--secondary-color-1, #0d5c63);
+  border: 1px solid var(--dark-green);
   overflow: hidden;
-  color: var(--secondary-color-1, #0d5c63);
+  color: var(--dark-green);
   padding: 10px 36px;
 }
 
@@ -77,7 +76,7 @@
   font: 14px Montserrat, sans-serif;
 }
 .h3 {
-  color: var(--text-color, #252b42);
+  color: var(--text-color);
   text-align: center;
   font-size: 24px;
   font-weight: 700;
@@ -104,19 +103,19 @@
   flex-direction: column;
 }
 .formControl {
-  color: var(--text-color, #252b42);
+  color: var(--text-color);
   font-weight: 600;
   line-height: 24px;
   align-self: start;
 }
 .inputFormControl {
   border-radius: 5px;
-  border: 1px solid var(--muted-color, #bdbdbd);
+  border: 1px solid var(--muted-color);
   background-color: #f9f9f9;
   margin-top: 10px;
   width: 100%;
   overflow: hidden;
-  color: var(--second-text-color, #737373);
+  color: var(--second-text-color);
   font-weight: 400;
   line-height: 28px;
   padding: 11px 21px;
@@ -142,14 +141,14 @@
   width: 100%;
   flex-direction: column;
   overflow: hidden;
-  color: var(--second-text-color, #737373);
+  color: var(--second-text-color);
   font-weight: 400;
   line-height: 28px;
 }
 .option {
   justify-content: center;
   border-radius: 5px;
-  border: 1px solid var(--muted-color, #bdbdbd);
+  border: 1px solid var(--muted-color);
   background-color: #f9f9f9;
   display: flex;
   gap: 40px 97px;
@@ -160,14 +159,14 @@
   aspect-ratio: 1.75;
   object-fit: contain;
   object-position: center;
-  width: var(--space-s, 8px);
-  fill: var(--second-text-color, #737373);
+  width: 0.5rem;
+  fill: var(--second-text-color);
   margin: auto 0;
 }
 .option2 {
   justify-content: center;
   border-radius: 5px;
-  border: 1px solid var(--muted-color, #bdbdbd);
+  border: 1px solid var(--muted-color);
   background-color: #f9f9f9;
   display: flex;
   gap: 40px 92px;
@@ -178,12 +177,11 @@
 .buttonBtnPrimaryColor {
   box-sizing: border-box;
   border-radius: 5px;
-  background: var(--primary-color, #ff7b47);
-  background-color: var(--primary-color, #ff7b47);
+  background: var(--orange);
   margin-top: 40px;
   width: 100%;
   overflow: hidden;
-  color: var(--light-text-color, #fff);
+  color: white;
   font-weight: 700;
   text-align: center;
   line-height: 28px;

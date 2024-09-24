@@ -1,12 +1,11 @@
 .button {
   box-sizing: border-box;
   border-radius: 5px;
-  background: var(--primary-color, #ff7b47);
-  background-color: var(--primary-color, #ff7b47);
+  background: var(--orange);
   margin-top: 40px;
   width: 100%;
   overflow: hidden;
-  color: var(--light-text-color, #fff);
+  color: white;
   font-weight: 700;
   text-align: center;
   line-height: 28px;

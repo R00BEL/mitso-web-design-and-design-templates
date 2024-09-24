@@ -6,7 +6,7 @@
 }
 
 .formControl {
-  color: var(--text-color, #252b42);
+  color: var(--text-color);
   font-weight: 600;
   line-height: 24px;
   align-self: start;
@@ -16,12 +16,12 @@
   box-sizing: border-box;
 
   border-radius: 5px;
-  border: 1px solid var(--muted-color, #bdbdbd);
+  border: 1px solid var(--muted-color);
   background-color: #f9f9f9;
   margin-top: 10px;
   width: 100%;
   overflow: hidden;
-  color: var(--second-text-color, #737373);
+  color: var(--second-text-color);
   font-weight: 400;
   line-height: 28px;
   padding: 11px 21px;
